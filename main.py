@@ -1,8 +1,8 @@
 from diaries.DiarySample import DiarySample
-
+from diaries.NishizawaDiary import NishizawaDiary
 diaries = [
     DiarySample(), 
-    NishizawaDiary()
+    NishizawaDiary(),
 ]
 
 for d in diaries:
