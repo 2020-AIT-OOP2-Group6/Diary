@@ -1,6 +1,7 @@
 from diaries.DiarySample import DiarySample
+from diaries.FugaDiaryNew import FugaDiaryNew
 
-diaries = [DiarySample(), ]
+diaries = [DiarySample(), FugaDiaryNew()]
 
 for d in diaries:
     print("---------------------------------")
